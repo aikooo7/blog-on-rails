@@ -69,4 +69,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 
+# Loads .enf files
+gem 'dotenv-rails', groups: [:development, :test]
+
 end
