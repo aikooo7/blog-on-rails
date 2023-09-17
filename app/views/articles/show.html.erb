@@ -1,3 +1,7 @@
 <h1><%= @article.Title %></h1>
 
 <p class="Article_body_individual"><%= @article.Body %></p>
+
+<div class="Create">
+  <%= link_to "Edit a article.", edit_article_path(@article) %>
+</div>
