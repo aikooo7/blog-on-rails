@@ -23,12 +23,19 @@ a {
     color: white;
 }
 
+.Create {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .Create a {
     font-size: 30px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 10%;
+    margin: 0 10px;
     text-decoration: none;
 }
 
