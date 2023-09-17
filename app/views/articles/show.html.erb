@@ -4,4 +4,8 @@
 
 <div class="Create">
   <%= link_to "Edit this article.", edit_article_path(@article) %>
+  <%= link_to "Delete this article.", article_path(@article), data: {
+    turbo_method: :delete,
+    turbo_confirm: "Are you sure you want to delete this article?"
+  } %>
 </div>
